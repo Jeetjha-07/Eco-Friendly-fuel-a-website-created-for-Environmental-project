@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        /* Add some basic styling for the gallery */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 16px;
+            height: 200px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Image Gallery</h1>
+
+    <div class="gallery">
+        <!-- Add your image URLs here -->
+        <img src="a.jpg" alt="Image 1">
+        <img src="b.jpg" alt="Image 2">
+        <img src="f.jpg" alt="Ev image">
+        <img src="g.jpg" alt="Image 3">
+        
+        <img src="m.jpg" alt="Image 3">
+        <img src="o.jpg" alt="Image 3">
+        <img src="q.jpg" alt="Image 3">
+        <img src="r.jpg" alt="Image 3">
+        <img src="t.jpg" alt="Image 3">
+        <img src="w.jpg" alt="Image 3">
+        <img src="img.jpg" alt="Image 3">
+
+        <!-- Add more images as needed -->
+    </div>
+
+</body>
+</html>

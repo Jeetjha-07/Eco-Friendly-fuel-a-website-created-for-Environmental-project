@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Eco Friendly Fuels</title>
+    <style>
+        /* Additional styling can be added here */
+        #surveyForm {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Eco Friendly fuels</h1>
+        <!-- Add this button wherever you want the toggle to appear, maybe in your header or footer -->
+        <!-- Add this container and button wherever you want the toggle to appear, maybe in your header or footer -->
+        <div class="dark-mode-toggle-container">
+            <button id="darkModeToggle"><button onclick="toggleDarkMode()">Night Mode🌙</button></button>
+        </div>
+
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home" class="hover-effect">Home</a></li>
+            <li><a href="#about" class="hover-effect">About</a></li>
+            <li><a href="#data" class="hover-effect">Data</a></li>
+            <li><a href="#survey" class="hover-effect">Take Survey</a></li>
+            <li><a href="#contact" class="hover-effect">Contact</a></li>
+            <li><a href="#Goal" class="hover-effect">Sustainable Goal</a></li>
+            <li><a href="images.html" class="hover-effect">Eco-friendly fuels images</a></li>
+        </ul>
+    </nav>
+    <!-- <div class="container"> -->
+    <!-- <div class="content"> -->
+    <section id="home">
+        <div class="rounded-box">
+            <h2>Welcome to the World of Eco Friendly Fuels</h2>
+            <p>In this website we are going to learn what are eco-friendly fuels. How they effect the world environment.
+                Benefits of Eco-Friendly Fuels.Types of Eco-friendly fuels.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="rounded-box">
+            <h2>About Eco-Friendly Fuels</h2>
+            <p>Welcome to the journey of sustainable devlopment, we're not just providing fuels; we're fueling a
+                movement towards a cleaner and brighter future. Our commitment goes beyond the pump – it's about making
+                responsible choices for the environment without compromising on performance. Whether you're on the road
+                or simply curious, explore our eco-friendly fuel solutions and be part of the positive change. Let's
+                drive towards a sustainable tomorrow together!</p>
+            <div class="overview-window">
+                <h2>Eco-Friendly Fuels </h2>
+
+                <!-- Introduction -->
+                <div class="topic" id="introduction">
+                    <h3 onclick="toggleSubtopics('introduction')">
+                        Introduction
+                        <span class="arrow-down">&#9660;</span>
+                    </h3>
+                    <p class="subtopics">In today's world, the way we use energy is causing big problems all around the
+                        globe. The fuels<br><br>
+                        we usually use are making the environment really sick. This is making the weather go all crazy
+                        and it's hurting nature.<br><br>
+
+                        We've been using fuels that come from old things in the ground for a very long time. These fuels
+                        have helped us grow, but they're making the planet really unwell. They let out gases that make
+                        the air too warm, causing lots of bad weather and making nature unbalanced.<br><br>
+
+                        But there's some good news! There are these amazing special fuels that don't hurt the planet.
+                        They can help us fix the mess we've made with our usual fuels. These new fuels come from things
+                        like plants, and they don't make the air dirty. Some are like the batteries in our toys, and
+                        they're getting better and lasting longer.<br><br>
+
+                        These special fuels are super important because they can stop the Earth from getting too warm
+                        and fix some of the big problems we've made. They come in different types, like fuels made from
+                        plants and even those used to power cars without polluting the air.<br><br>
+
+                        The change to these new fuels is a big deal. It's like a promise from all of us to take care of
+                        our planet. This is our way of making sure we live in a healthier and more sustainable world.
+
+                    </p>
+                    <!-- <ul class="subtopics">
+                        <li>What are eco-friendly fuels ?</li>
+                        <li>Why we need eco-friendly fuels ?</li>
+                        <li>Importance of eco-friendly fuels</li>
+                    </ul> -->
+                </div>
+
+                <!-- Understanding of eco-friendly fuels -->
+                <div class="topic" id="understanding">
+                    <h3 onclick="toggleSubtopics('understanding')">Understanding Eco-Friendly Fuels
+                        <span class="arrow-down">&#9660;</span>
+                    </h3>
+                    <p class="subtopics">
+                        <!-- <li>Examples of Eco-Friendly Fuels</li>
+                        <li>Methods of preperation of Eco-Friendly Fuels</li>
+                        <li>Scope of Eco-Friendly fuels</li> -->
+                        Understanding these special fuels is really important because they're different from the ones we
+                        usually use. They're much better for our planet. These cool fuels come from things we can keep
+                        using again and again, unlike the ones that can run out and harm the Earth.<br><br>
+
+                        They're called eco-friendly because they're kinder to nature. They come from things like plants
+                        or waste and don't make the air and water dirty like our regular fuels do. These special fuels
+                        don't cause as much harm to the environment.<br><br>
+
+                        The best part is that they don't run out like the fuels we're using now. They mostly come from
+                        things that keep growing, unlike fossil fuels that will eventually finish. Also, when we use
+                        these special fuels, they make less bad stuff that can hurt the air and water.<br><br>
+
+                        Using these new fuels is super important because they can help us take care of our planet.
+                        They're part of a bigger plan to use energy that doesn't make the Earth sick. And if more people
+                        start using these cool fuels, we'll help make our planet healthier for the future.<br><br>
+
+
+
+
+
+                    </p>
+                </div>
+
+                <!-- Environmental Impacts -->
+                <div class="topic" id="environmental">
+                    <h3 onclick="toggleSubtopics('environmental')">Environmental Impacts of Conventional Fuels
+                        <span class="arrow-down">&#9660;</span>
+                    </h3>
+                    <p class="subtopics">
+                        <!-- <li>Air Pollution</li>
+                        <li>Water Pollution</li>
+                        <li>Health impact </li>
+                        <li>Climate Change Effects</li> -->
+                        Eco-friendly fuels are like the good guys in the energy world. They bring a bunch of awesome
+                        things that make our planet a better place to live. One of the coolest things about these
+                        special fuels is that they don't make the Earth sick like regular fuels do. When we use them,
+                        they release fewer yucky things into the air, which helps keep the air clean for us to
+                        breathe.<br><br>
+
+                        Regular fuels often create a lot of things that make the Earth too warm. But eco-friendly fuels
+                        are different. They don't add as much to the warming, so they help keep our planet cooler and
+                        safer. This is really important for stopping climate change and making sure our environment
+                        stays more stable for the kids of the future.<br><br>
+
+                        The cool thing about these fuels is they come from things we can keep using again and again,
+                        like plants or the sun. Regular fuels can finish and hurt the Earth, but these special fuels
+                        won't run out. That's good news because we can keep using them without worrying about hurting
+                        the planet.<br><br>
+
+                        Also, these special fuels are like superheroes in using energy efficiently. They can do more
+                        with less, just like a small battery that powers a big toy for a really long time. This means we
+                        don't waste energy and we use our resources more wisely.<br><br>
+
+                        By using these amazing eco-friendly fuels, we're making our planet happier and healthier. They
+                        help us have cleaner air, a cooler Earth, and make sure we're not wasting our resources. With
+                        these cool fuels, we're making a better tomorrow for everyone.<br>
+                    </p>
+                </div>
+
+                <!-- Advantages of Solid Waste Management -->
+                <div class="topic" id="advantages">
+                    <h3 onclick="toggleSubtopics('advantages')">Advantages of Eco-Friendly Fuels
+                        <span class="arrow-down">&#9660;</span>
+                    </h3>
+                    <p class="subtopics">
+
+                        Eco-friendly fuels are like the good guys in the world of energy. They bring a bunch of awesome
+                        things that make our planet a better place to live. One of the coolest things about these
+                        special fuels is that they don't make as much bad stuff that can harm our Earth. When we use
+                        them, they release fewer yucky things into the air, which helps keep the air clean for us to
+                        breathe.<br><br>
+
+                        You know how some fuels make a lot of stuff that makes the Earth too warm? Well, eco-friendly
+                        fuels don't do that as much. They're kind of like the planet's superheroes because they help
+                        stop the Earth from getting too hot. That means we can keep our planet cooler and safer.<br><br>
+
+                        Another great thing about eco-friendly fuels is that they're made from things that we can keep
+                        using again and again. They come from stuff like plants or the sun, which never run out. This is
+                        different from the fuels we usually use, like oil or gas, which can finish and hurt our
+                        planet.<br><br>
+
+                        These special fuels are also really good at helping us save energy. They're super efficient,
+                        meaning they can do a lot more with a little bit of fuel. That's like using one tiny battery to
+                        power a big toy—super cool!<br><br>
+
+                        By using eco-friendly fuels, we can take care of our planet and make sure we have enough energy
+                        for a long time. They help keep the air clean, make our planet cooler, and use less fuel to do
+                        more. That's why these special fuels are so great—they make our world a happier and healthier
+                        place for everyone!<br><br>
+
+                    </p>
+                </div>
+
+                <!-- Types and Methodology to Get Benefits from Solid Waste -->
+                <div class="topic" id="methodology">
+                    <h3 onclick="toggleSubtopics('methodology')">Types of Eco-Friendly Fuels
+                        <span class="arrow-down">&#9660;</span>
+                    </h3>
+                    <ul class="subtopics">
+                        <li>There are many types of eco-friendly fuels some of listed below</li><br>
+                        <ul>
+                            <h3>Biofuels</h3>
+
+                            <b>Biofuels are special types of fuels made from living things like plants, cooking oil, or
+                                even
+                                waste. There are a few different kinds:</b><br>
+
+                            <br>
+                            <li><b>Ethanol</b>: It's made from things like corn or sugarcane and used in some cars as a
+                                fuel.</li>
+                            <br>
+                            <li><b>Biodiesel</b>: This comes from oils in plants or even used cooking oil. It can work
+                                in trucks or
+                                some cars.</li>
+                            <br>
+                            <li><b>Biogas</b>: This fuel is produced from waste materials, like food scraps or manure,
+                                and can be used
+                                for heating or cooking.</li>
+                            <br><b>Pros and cons</b>: Biofuels are great because they come from things that we can keep
+                            growing, unlike
+                            oil or gas. But making them can sometimes use a lot of water or land, which might not be
+                            good
+                            for the environment.
+                        </ul>
+                        <ul>
+                            <h3>Hydrogen as a Fuel</h3>
+
+                            <b>Hydrogen is a really special fuel that we can make using electricity. There are a couple
+                                of ways
+                                to do it:</b><br>
+
+                            <br>
+                            <li><b>Electrolysis</b>: It's like magic! We use electricity to split water into hydrogen
+                                and oxygen.</li><br>
+                            <li><b>Steam methane reforming</b>: This method takes natural gas and turns it into
+                                hydrogen.</li>
+                            <br>
+                            <li><b>Using hydrogen</b>: It's used in some cars, buses, and even in some buildings for
+                                energy. But
+                                storing and moving hydrogen safely can be a bit tricky.</li>
+                            <br><b>Pros and cons</b>: Hydrogen fuel offers clean energy but faces challenges such as
+                            carbon emissions in production, energy intensity, and costly infrastructure. Overcoming
+                            these hurdles is crucial for realizing its potential as a sustainable energy source.
+
+                        </ul>
+                        <ul>
+                            <h3>Electric Vehicles</h3>
+
+                            <b>These cars use electricity to move. They're getting better because of:</b><br>
+
+                            <br>
+                            <li><b>Batteries</b>: They're like the hearts of these cars, and they're getting stronger
+                                and lasting
+                                longer.</li><br>
+                            <li><b>Charging</b>: There are more places to charge these cars, and they're getting faster
+                                too!</li><br>
+                            <li><b>Different types</b>: Some electric cars use only electricity (BEVs), while others use
+                                both
+                                electricity and a little bit of gasoline (PHEVs). They're all cool because they don’t
+                                make any
+                                pollution while driving, making the air cleaner for everyone!</li><br>
+
+                            <b> <i>Each of these eco-friendly fuel types has its good points and things we need to be
+                                    careful
+                                    about. They're all trying to help make our planet cleaner and healthier for
+                                    us!</i></b>
+                        </ul>
+                    </ul>
+                </div>
+
+                <!-- Case Studies -->
+                <div class="topic" id="case-studies">
+                    <h3 onclick="toggleSubtopics('case-studies')">Case Studies
+                        <span class="arrow-down">&#9660;</span>
+                    </h3>
+                    <ul class="subtopics">
+                        <li> Implementation of Biodiesel in Public Transportation</li>
+                        <ul>
+                            <br>A city's public transportation system sought to reduce its environmental impact and
+                            dependence on traditional fossil fuels. They decided to implement biodiesel, an eco-friendly
+                            alternative made from renewable resources such as vegetable oils or animal fats.<br>
+                            <br>
+                            <li><b>Implementation</b>:<br>
+                                <br> The transportation company gradually replaced a portion of its diesel fuel with
+                                biodiesel in its bus fleet. They collaborated with local biodiesel producers, ensuring a
+                                sustainable and local supply chain. Educational campaigns were launched to inform the
+                                public about the environmental benefits of biodiesel.
+                            </li>
+                        </ul>
+                        <ul>
+                            <br><b>Results:</b><br>
+
+                            <br>
+                            <li><b> Reduced Emissions</b>: Biodiesel implementation led to a significant reduction in
+                                greenhouse gas
+                                emissions compared to traditional diesel, contributing to improved air quality in the
+                                city.</li>
+                            <br>
+
+                            <li><b>Local Economic Boost</b>: Collaborating with local biodiesel producers stimulated the
+                                regional
+                                economy and created jobs in the renewable energy sector.</li>
+
+                            <br>
+                            <li><b>Positive Public Perception</b>: The public responded positively to the eco-friendly
+                                initiative,
+                                enhancing the company's reputation and ridership.</li>
+
+
+
+
+
+                            <br><b>Challenges:</b><br>
+                        </ul>
+                        <ul>
+                            <br>
+                            <li><b>Infrastructure Upgrades</b>: The need for modifications to storage and distribution
+                                infrastructure presented initial challenges and required investment.</li>
+                            <br>
+                            <li><b>Cost Considerations</b>: While biodiesel was competitive in some regions, initial
+                                costs and
+                                fluctuations in feedstock prices required careful financial planning.</li>
+
+
+
+                            <br><b>Conclusion:</b><br>
+                            <br>
+                            <i>The case study illustrates how the strategic adoption of eco-friendly fuel, such as
+                                biodiesel, can lead to positive environmental outcomes, economic benefits, and improved
+                                public perception. Overcoming challenges requires collaboration between public and
+                                private
+                                sectors and a commitment to sustainable practices.</i>
+
+
+
+
+
+
+                        </ul>
+                    </ul>
+                </div>
+
+                <!-- Real Life Application -->
+                <div class="topic" id="application">
+                    <h3 onclick="toggleSubtopics('application')">Real Life Application
+                        <span class="arrow-down">&#9660;</span>
+                    </h3>
+                    <ul class="subtopics">
+                        <ul>
+
+                            <br>
+                            <li><b>Sweden</b>: This country is doing really cool stuff with biofuels. They use a lot of
+                                waste from
+                                forests and farms to make special fuels for their cars and trucks. It helps keep their
+                                air
+                                cleaner and their cars moving without making too much pollution.</li>
+                            <br>
+                            <li><b>Costa Rica</b>: They're like nature superheroes! Costa Rica is working hard to use a
+                                lot of
+                                renewable energy. They use things like water, wind, and the sun to make electricity.
+                                This
+                                means they're using more clean energy and helping the environment.</li>
+                            <br>
+                            <li><b>Tesla</b>: You might have heard of this company. They make electric cars that are
+                                super fast and
+                                don’t need any gas. They're getting more popular, and people really like how they don’t
+                                make
+                                pollution while driving.</li>
+                            <br>
+                            <li><b>Boeing</b>: This big airplane company is trying to make planes that use biofuels.
+                                They've done
+                                some flights using these special fuels that don’t harm the environment as much as
+                                regular
+                                plane fuels. This is great because airplanes usually use a lot of fuel and make a lot of
+                                pollution.</li>
+                            <br>
+                            <li><b>Indian Railways</b>: They're taking big steps to use biofuels in their trains.
+                                They've started using
+                                a special type of diesel made partly from plants. This helps their trains move while
+                                causing
+                                less harm to the environment. It's awesome because trains use a lot of fuel, and
+                                using
+                                eco-friendly options helps keep the air cleaner.</li>
+                            <br>
+                            <li><b>Tata Motors</b>: This company in India is making buses that run on electricity. These
+                                buses are
+                                becoming more common in some cities, and they don’t make any pollution while driving
+                                around.
+                                It's great for the air in the cities because it keeps the air cleaner and healthier for
+                                everyone</li>
+                            <br>
+                            <br>
+                            These are just a few examples of how different places and companies are using eco-friendly
+                            fuels to help our planet. They're showing us that we can use cleaner fuels and help our
+                            world stay beautiful and healthy for a long time.
+                        </ul>
+                    </ul>
+                </div>
+
+                <!-- Indian and International Surveys -->
+                <div class="topic" id="surveys">
+                    <h3 onclick="toggleSubtopics('surveys')">Indian and International Surveys
+                        <span class="arrow-down">&#9660;</span>
+                    </h3>
+                    <ul class="subtopics">
+                        <h3>Indian Surveys</h3>
+                        <ul>
+                            <br><b>Here are some surveys on eco-friendly fuels in India</b>:<br>
+                            <br>
+                            <li><b>Global survey</b>: India ranked first in a global survey on eco-friendliness with a
+                                score of 62.6.</li>
+                            <li><b>IRES 2020</b>: 85% of Indian households have access to LPG.</li>
+                            <li><b>Harvard School survey</b>: 30% of fatalities in India are due to air pollution caused
+                                by fossil
+                                fuels.</li>
+                            <li><b>2020 energy mix</b>: 77% of India's electricity generation came from fossil fuels.
+                                American Express survey: Indians want to prioritize spending on sustainable products.
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+
+                <!-- Challenges -->
+                <div class="topic" id="challenges">
+                    <h3 onclick="toggleSubtopics('challenges')">Challenges
+                        <span class="arrow-down">&#9660;</span>
+                    </h3>
+                    <ul class="subtopics">
+                        <li><b>It's Hard to Make New Stuff</B>: Creating these special fuels needs really smart
+                            technology, and
+                            not everyone has that. Making these eco-friendly fuels is like making a secret recipe—only a
+                            few people know exactly how to do it.<br>
+                            <br>
+                            <b>Costs a Lot of Money</b>: Changing from regular fuels to these special ones can be
+                            expensive.
+                            The machines and ways to make and use them might need a lot of money, which not everyone<br>
+                            has.<br>
+                            <br>
+                            <b> Needs Different Places</b>: Using eco-friendly fuels might need new places to keep them
+                            and move
+                            them around. Not all places are ready for this change because they need special things like
+                            places to charge electric cars or store new fuels.<br>
+                            <br>
+                            <b>Not Everyone Agrees</b>: Some people might not like these new fuels or think they're not
+                            good
+                            enough. This can make it hard for everyone to change together.<br>
+                            <br>
+                            These things can make it tricky for everyone to start using these cool eco-friendly fuels.
+                            But if we learn more and work together, we can find ways to make these changes easier and
+                            help our planet become cleaner and healthier for everyone!
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Future Outlooks -->
+                <div class="topic" id="outlooks">
+                    <h3 onclick="toggleSubtopics('outlooks')">Future Outlooks
+                        <span class="arrow-down">&#9660;</span>
+                    </h3>
+                    <ul class="subtopics">
+                        <ul>
+                            <li><b>Bright Ideas to Make Fuels</b>: Scientists and really smart people are dreaming up
+                                super cool
+                                ways to make these special fuels. They're trying things that are like magic to make
+                                better,
+                                cleaner fuels for everyone.</li>
+                            <br>
+                            <li><b>Finding Cheaper Ways</b>: In the future, using these special fuels might not cost as
+                                much.
+                                People are thinking really hard to make them easier on our pockets, so more of us can
+                                use
+                                these awesome fuels.</li>
+                            <br>
+                            <li><b> Better Places for Fuels</b>: We might see more places to fill up our cars with these
+                                special
+                                fuels or even new ways to store them. Smart folks are figuring out how to make it super
+                                easy
+                                for everyone to use these new fuels.</li>
+                            <br>
+                            <li><b> Working Together for Our Planet</b>: More and more friends are learning about these
+                                cool fuels
+                                and starting to love them. As more people like them, it's going to be much easier for
+                                all of
+                                us to use them together.</li>
+                            <br>
+                            The future is looking super exciting for these special fuels. People are dreaming big and
+                            working hard to make these fuels better, cheaper, and easier for everyone. It's like a big
+                            team effort to keep our planet happy and healthy!
+                        </ul>
+
+
+
+
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Policy and Initiatives -->
+                <div class="topic" id="policy">
+                    <h3 onclick="toggleSubtopics('policy')">Policy and Initiatives
+                        <span class="arrow-down">&#9660;</span>
+                    </h3>
+                    <ul class="subtopics">
+                        <li><b>Government all Schemes and initiatives</b><br><br>
+                            <b>The Indian government has introduced several schemes to tackle climate change, such
+                                as:</b><br>
+                            <ul>
+                                <li><b>National Policy on Biofuels</b>: Encourages alternative fuels to lower carbon
+                                    emissions.</li><br>
+                                <Li><b>Green Hydrogen Mission</b>: Launched by the BJP-led Central government.</Li><br>
+                                <li><b>GOBARdhan (Galvanising Organic Bio-Agro Resources Dhan Scheme)</b>: Also
+                                    initiated by the
+                                    <b>BJP-led Central government.</b>
+                                </li><br>
+                                <li><b>Green Credit Program, MISHTI, and Amrit Dharohar</b>: Additionally launched by
+                                    the BJP-led
+                                    Central government.</li><br>
+                                <b> <i>Other government policies promoting eco-friendly fuels include plans to set up
+                                        5,000 CBG
+                                        (Compressed Biogas) plants by 2025, offering financial incentives to promote
+                                        green fuel
+                                        usage, notifying rules for promoting renewable energy via Green Energy Open
+                                        Access,
+                                        launching the Green Term Ahead Market to facilitate renewable energy sales,
+                                        integrating CNG
+                                        facilities at retail outlets, setting up Electric Vehicle Charging Stations, and
+                                        focusing on
+                                        increasing locally produced energy while reducing energy poverty. The energy
+                                        policy centers
+                                        on developing alternative energy sources, particularly nuclear, solar, and wind
+                                        energy.</i></b>
+                            </ul>
+
+
+                    </ul>
+                </div>
+
+                <!-- Conclusion -->
+                <div class="topic" id="conclusion">
+                    <h3 onclick="toggleSubtopics('conclusion')">Conclusion
+                        <span class="arrow-down">&#9660;</span>
+                    </h3>
+                    <ul class="subtopics">
+                        <li>Summary of Key Findings</li>
+                        <ul>
+                            <li>In India, renewable sources made up about 20.5% of electricity in 2022, aiming to hit a
+                                50% target by 2030.</li>
+                            <li>Globally, renewables now account for nearly 30% of the power mix, up 10% since 2010.
+                            </li>
+                            <li>In the EU, renewable sources comprised 37.5% of electricity in 2021.</li>
+                            <li>Investments in clean energy are projected to increase by 24% from 2021 to 2023, driven
+                                by renewables and electric vehicles.</li>
+                            <li>Solar energy generation worldwide surged by 22% in 2021, marking a record increase of
+                                179 TWh.</li>
+                            <li>In the U.S., about 81% of energy production came from fossil fuels in 2022, while
+                                renewable sources accounted for around 13.1% of total energy.</li>
+                        </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <script src="script.js"></script>
+    </section>
+
+    <section id="data">
+        <div class="rounded-box">
+            <h2>Data on Eco-friendly</h2>
+            <p>Eco-friendly fuels are fuels that are not harmful to the environment. Some examples of eco-friendly fuels
+                include:
+            <ul>
+                <li><b>Bioethanol</b>: Improves air quality and vehicle performance
+                <li><b>Biodiesel</b>: Can be made from edible oils</li>
+                <li><b>Natural gas</b>: Used for cooking, electricity, and heat</li>
+                <li><b>Compressed natural gas (CNG)</b>: Smoke-free and used in vehicles</li>
+                <li><b>Liquefied petroleum gas (LPG)</b>: Clean for health and household emissions</li>
+                <li><b>Solar</b>: Clean for health and household emissions</li>
+                <li><b>Electric</b>: Clean for health and household emissions</li>
+                <li><b>Alcohol fuels</b>: Clean for health and household emissions</li><br>
+                <b>Other eco-friendly fuels include:</b><br>
+                Dimethyl ether<br>
+                Non-fossil methane<br>
+                Hydrogen gas<br><br>
+                <i>Some fuels that are not eco-friendly include: Petrol, Diesel, Kerosene.</i><br><br><br>
+
+                <b>Here's some environmental impact data on eco-friendly fuels:</b><br><br>
+
+                <li><b>Wind Energy</b>: Among the lowest carbon footprints, with onshore and offshore wind emitting 11
+                    and 12 grams of CO2 equivalent per kWh, respectively.</li>
+                <li></li><b>Geothermal Energy</b>: Has a relatively low carbon footprint, emitting 38 grams of CO2 per
+                kWh produced.
+                <li><b>Renewable Energy</b>: Reduces greenhouse gas emissions significantly, up to 90-99% less than
+                    coal-fired plants.</li><br>
+                <li><b>Biomass Energy</b>: Leads to net reductions in carbon emissions, equal to savings from fossil
+                    fuels</li>.<br>
+                <br>
+                <li><b>Reducing greenhouse gas emissions from eco-friendly fuels can bring several environmental
+                        benefits</b>:<br>
+                    <ul>
+                        <br>
+                        <li> Slows the rise in temperatures, sea levels, melting ice, and ocean acidification.</li><br>
+                        <li>Lessens the chance and severity of extreme weather events.</li><br>
+                        <li>Improves air and water quality.</li><br>
+                        <li>Helps preserve biodiversity and supports a healthy food supply.</li><br>
+                    </ul>
+                    <br> <b>India showcases various sustainable initiatives:</b><br><br>
+                    <ul>
+                        <li><b>Indira Paryavaran Bhawan</b>: Uses 70% less energy compared to a standard building
+                            and is the highest
+                            green-rated structure in India.</li><br>
+                        <li><b>ITC</b>: Reduced reliance on coal by over 100,000 tons yearly.</li><br>
+                        <li><b>IndianOil Corporation</b>: Supplies 5% ethanol-blended petrol in multiple regions.
+                        </li><br>
+                        <li><b>Asian Development Bank (ADB)</b>: Imports liquefied natural gas to enhance energy
+                            security and promote clean
+                            energy.</li><br><br><br>
+                        <i>Additional sustainability endeavors in India encompass electrifying all villages, cutting
+                            38 million
+                            tonnes of CO2 emissions yearly with energy-efficient appliances, providing clean cooking
+                            fuel to 80
+                            million low-income households, ratifying the Paris Agreement, implementing the "Clean
+                            Development
+                            Mechanism" projects, State Action Plans on Climate Change, the Coal Tax, and the
+                            "National Clean Energy
+                            Fund," along with the National Adaptation Fund for Climate Change.</i>
+                        <ul>
+                            <h3>Local Surveys and Observation Data</h3>
+                            <li>The widespread adoption of eco-friendly fuels is experiencing a rapid surge across
+                                various
+                                sectors. Notably, educational institutions, medical facilities, and industries are
+                                actively
+                                implementing eco-friendly fuel solutions. A prime example is<b> Lovely Professional
+                                    University</b>
+                                (LPU), which has embraced sustainability by generating electricity through solar panels.
+                                LPU's campus boasts the installation of nearly 1000KW of solar panels, not only
+                                enhancing
+                                its aesthetic appeal but also showcasing the campus's commitment to harnessing solar
+                                energy,
+                                the cornerstone of various sustainable energy forms.<br>
+                                <br>
+                                Another noticeable trend is the significant increase in the sale of <b>Electric Vehicles
+                                    (EVs)</b>
+                                in recent years. Diverse forms of EVs have gained traction, with one prominent example
+                                being
+                                <b>E-rickshaws</b>. During our inquiries with E-rickshaw drivers, a prevailing reason
+                                for their
+                                adoption of EVs emerged. They cited the cost-effectiveness of electric vehicles, coupled
+                                with generous incentives from the central government. The lower cost per kilometer
+                                compared
+                                to traditional fuel vehicles significantly contributes to their profitability.<br>
+                                <br>
+                                This shift towards eco-friendly practices in both energy generation and transportation
+                                not
+                                only reflects a commitment to environmental responsibility but also underscores the
+                                economic
+                                advantages and incentives associated with sustainable choices.
+                            </li><br>
+                            <br><img src="Capture1.png" href="Ev sale graph" style="height: 200px;"> <img
+                                src="sales.jpg" href="Ev units sale in FY23" style="height: 250px;"><img src="1.png"
+                                href="graph" style="height: 200px"><img src="2.png" href="graph"
+                                style="height: 200px"><img src="12.png" href="graph" style="height: 200px"><img
+                                src="4.png" href="graph" style="height: 200px"><img src="5.png" href="graph"
+                                style="height: 200px"><img src="6.png" href="graph" style="height: 200px"><img
+                                src="7.png" href="graph" style="height: 200px"><img src="8.png" href="graph"
+                                style="height: 200px"><img src="9.png" href="graph" style="height: 200px"><img
+                                src="10.png" href="graph" style="height: 200px"><img src="11.png" href="graph"
+                                style="height: 200px"><img src="3.png" href="graph" style="height: 200px">
+                        </ul>
+
+
+
+
+
+                    </ul>
+            </ul>
+
+            </p>
+            <!-- <p>Discover insightful data and facts about Eco-Friendly Fuels, composition, and environmental impact.</p> -->
+        </div>
+        <!--<iframe src="" width="600" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
+
+    </section>
+    <section id="Goal">
+        <div class="rounded-box">
+            <h2>Sustainable Goal</h2>
+            <p>The Sustainable Goal achieved by the eco-friendly fuels are:</p>
+            <ul>
+                <li><b>GOAL 1: Affordable and Clean Energy</b>
+
+                    The transition to eco-friendly fuels aligns directly with Goal 1, which focuses on ensuring access
+                    to
+                    affordable, reliable, sustainable, and modern energy for all. By promoting the use of clean and
+                    sustainable energy sources, such as biofuels, hydrogen, and electric power, the project contributes
+                    to
+                    reducing environmental impact, mitigating climate change, and ensuring access to energy that is both
+                    affordable and environmentally friendly.</li><br>
+                <br>
+                <b><i> Additionally, the project indirectly influences other sustainable goals, such as:</i></b><br>
+                <br>
+                <li><b>GOAL 2: Climate Action</b>: Eco-friendly fuels, by reducing carbon emissions and promoting
+                    sustainable
+                    energy practices, actively contributes to addressing climate change.</li><br>
+                <br>
+                <li><b> GOAL 3: Decent Work and Economic Growth</b>: The adoption of eco-friendly fuels can stimulate
+                    economic
+                    growth by fostering the development of new industries and job opportunities in the renewable energy
+                    sector.</li><br>
+                <br>
+                <li><b> GOAL 4: Industry, Innovation and Infrastructure</b>: The project encourages innovation in energy
+                    production
+                    and infrastructure development, promoting sustainable practices in the industry.</li> <br>
+                <br>
+                <li><b> GOAL 5: Sustainable Cities and Communities</b> : Eco-friendly fuels contribute to creating more
+                    sustainable
+                    and environmentally friendly urban environments by reducing pollution and reliance on non-renewable
+                    resources.</li> <br>
+                <br>
+                <i>There are many more goals which can be achieved by the eco-friendly fuels . We have to adopt the
+                    Eco-Friendly Fuels as soon as possible to make the environment healthy for us!</i><br>
+                <br>
+
+                <br>
+                <li><b>Sustainable Goals achieved by lpu</b><br>
+                    The entire World growing population is a key factor for environmental pollution and has necessitated
+                    human beings to use clean energy resources in order to protect environment in future for its
+                    survival.
+                    The dependency of electricity generation using coal-based power plants is in practice. A
+                    concentrated
+                    effort to expand capacity in the field of clean and inexpensive energy is necessary to make the
+                    transition from the current fossil fuel-based energy system to the renewable energy-based systems of
+                    the
+                    future. The harnessing and use of solar energy is playing an important role to achieve this task
+                    worldwide. India faces twin challenges to fulfill energy demand of its population keeping in mind
+                    global
+                    efforts to mitigate climate change. However, as pointed out in a report titled Energy Statistics
+                    2020 by
+                    Ministry of Statistics and Plan Implementation, Government of India, “India has expanded its
+                    renewable
+                    source of electricity generation capacity by 8.51% over a year which has led to downward trend in
+                    the
+                    cost and has increased usage”. Interestingly, according to The Renewable Energy Country
+                    Attractiveness
+                    Index (RECAI) 2022, Indian renewable energy sector is the third most attractive renewable energy
+                    market
+                    in the world. The shift from a fossil-fuel-based energy system to future renewable-energy-based
+                    systems
+                    necessitates a determined effort in the field of clean and inexpensive energy capacity building.
+                    Solar
+                    power and wind power potential in India are estimated to be in the magnitude of 7,48,990 MW and
+                    6,95,509
+                    MW, respectively. The Indian government has set a goal of 500 GW of renewable energy capacity by
+                    2030.
+                    Fossil fuels dominated the twentieth century, with the twenty-first century serving as an era of
+                    transition from fossil fuels to renewable energy. To solve the problems of growing energy resources
+                    and
+                    reducing carbon dioxide emissions, a wide range of energy issues and creative technologies are
+                    required.
+                    Lovely Professional University (LPU) is likewise moving in the same path as the Government of
+                    India’s
+                    ambition.</li>
+                <br>
+                LPU is committed to clean energy deployment, academic programmes, research, professional training, and
+                consulting in the areas of renewable energy, energy-efficient buildings, energy conservation, and
+                sustainability management. The university has a 7.5 MW solar power plant and an energy performance index
+                of 33.42 kWh/m2/year. The consumption is much lower than a 5-star rated building as per Bureau of Energy
+                Efficiency, Government of India<br>
+                <br>
+                <b><i>Some of observation of clean fuel in Lpu Observed by me on exploring lpu is below</i></b>
+                <br><img src="a.jpg" style="height: 200px;"><img src="g.jpg" style="height: 200px;"><img src="o.jpg"
+                    style="height: 200px;"><img src="q.jpg" style="height: 200px;">
+                <br>
+                <li><b>ACADEMIC INITIATIVES</b>
+                    <br>
+                    Energy consumption in India is expanding at a rate of 7 to 10% each year, owing to the country’s
+                    growing
+                    economy. It is commonly understood that carbon-based fossil fuels contribute to global warming. As a
+                    result, it is critical to develop new and effective sustainable energy methods. To meet such
+                    demands,
+                    the development of the necessary skill-sets need to be cultivated and developed.
+                    <br>
+                    Through research, teaching, operational practices, and capacity building, Lovely Professional
+                    University
+                    is dedicated to resource conservation and sustainability. As a result, 115 courses for
+                    undergraduate,
+                    postgraduate, and research studies programmes have been embedded by the university. More than 8000
+                    students are the beneficiary of these courses/programs. The prime objective for the designed courses
+                    is
+                    to build up the understanding for clean and affordable energy and to help the nation and globally to
+                    meet the future requirements of United Nations development goals. A few major courses of the
+                    University
+                    are Solar energy technology, Renewable energy and green technology, Renewable Energy, Wind and solar
+                    energy systems, Workshop and design of solar systems, Energy conservation for electrical
+                    engineering,
+                    Non-conventional energy resources, Non-conventional energy sources and energy auditing, Energy
+                    Conservation, New and Emerging Technologies, Energy-efficient Building Design Strategies;
+                    Sustainable
+                    Development and the Livelihood, and Clean Fuel etc.
+                    <br>
+                    The courses on green economy and sustainability namely ‘Renewable Energy Systems’, ‘Sustainability
+                    Ecology and Landscape’ and ‘Sustainability and Energy Efficiency’ have been incorporated in the
+                    curriculum of undergraduate programs wherein live project is an integral component of these courses
+                    respectively. School of Bioengineering and Biosciences has created an interdisciplinary team of UG &
+                    PG
+                    students working on green economy aiming sustainability development by extracting the value products
+                    from lignocellulosic waste and evaluating their potential in various applications such as
+                    antimicrobials. Further, the enzyme study to degrade the lignocellulosic biomass for biofuel
+                    production
+                    is also in progress.
+                    <br>
+                    Lovely Professional University is committed to increased use of clean energy sources and is already
+                    undertaking various small-scale sustainable power projects and promoting green energy heavily.
+                    <br>
+                    Lovely Professional University is devoted to increasing the usage of clean energy sources and is now
+                    working on a number of small-scale sustainable power projects as well as extensively promoting green
+                    energy.
+                </li>
+                <br>
+                <br>
+                <br>
+                <li><b> HAPPENINGS AT LPU</b><br>
+
+                    Solar Power Plant: The University’s commitment to guidelines contributes to the United Nations’
+                    sustainable development goals, and it’s worth noting that in 2018, the University erected a 1.1 MW
+                    rooftop solar PV plant. Currently, 7.5 MW of Solar power plant is installed in the university. With
+                    these initiatives, Not only has the university lowered the total power use from the conventional
+                    resources, but it has also boosted the university’s renewable generation. In the year 2022, the
+                    combined
+                    emissions from scope 1 and scope 2 amount to nearly 3730 tonnes of CO2 equivalent for the 2021-22
+                    session.
+                    <br>
+                    Energy Efficient Building: In an era of smart cities, sustainable buildings and contemporary
+                    interiors,
+                    University designed an energy-efficient building with specialized architects. They have also trained
+                    our
+                    students to become lateral thinkers by focusing on the critical design approach. With exposure to an
+                    international environment, access to the latest tools, software’s and technology, our students also
+                    become architects that create buildings and infrastructure that are globally acknowledged. Due to
+                    the
+                    incorporation of energy-efficient building strategies, the energy consumption density of the LPU
+                    buildings is much lower than a 5-star rated building by Bureau of Energy Efficiency, Government of
+                    India.
+                    <br>
+                    Green transportation: Solar power bus and battery-operated e-rickshaw in the campus are operating
+                    since
+                    2017. 22 e-rickshaws service connecting its major buildings, departments, hostels for students and
+                    faculty members. Nearly 100 Km mileage is giving by each e-rickshaw. In this way, the university
+                    strives
+                    to combat the detrimental carbon-emitting conventional fuel vehicles and helping towards the
+                    improvement
+                    of air quality at the micro-level.
+                    <br>
+                    Solar Irrigation System: The University installed three solar-powered irrigation systems and also
+                    used
+                    in lawns , gardens for watering the plants. Each unit has a five- horsepower capacity. These motors
+                    are
+                    used in drip irrigation systems to irrigate orchards. This system is extremely efficient in terms of
+                    reducing water loss and making efficient use of energy and water resources.
+                    <br>
+                    Biogas plant: Organic waste can be collected and used to make biogas, a renewable source of energy,
+                    to
+                    minimize greenhouse gas emissions and the danger of pollution to rivers. Biogas is made up of about
+                    50%
+                    to 70% methane, 30% to 40% carbon dioxide, and trace amounts of other gases In this regard, the
+                    University has three 3-cubic-meter biogas systems in operation across campus which processes and
+                    treats
+                    kitchen waste.
+                    <br>
+                    Centralized Chiller Plant: The University replaced split and window air conditioners in
+                    administrative
+                    buildings with a 265 TR centralized chiller water-based cooling system. When compared to
+                    conventional
+                    air conditioners, the new system uses 40% less electricity. The university has a strategy for
+                    lowering
+                    energy usage by scheduling the running duration of air conditioning devices during the day and
+                    during
+                    peak summer months.
+                </li>
+                <br>
+                <li><b>Future Plans 2029</b>
+                    <br>
+                    The objectives for the green campus have been framed for the vision of 2029 aligned with the
+                    national
+                    and international guidelines. The 2029 Vision of University states that “By 2029, we must transform
+                    the
+                    university into the green and sustainable campus”.
+                    <br>
+                    Key Performance Indicators (KPIs) to measure the performance for the vision “2029”
+                    Reduction the use of conventional energy resources by 30%.
+                    Identification of high energy consumption zones.
+                    Follow the national/international standards in building infrastructure and use of electric gadgets.
+                    Updation of existing infrastructure into the energy-efficient green buildings.
+                    Enhanced value creation through optimized material flows and waste management.
+                    Identification of essential and non-essential operation
+                    Promotion of 100% technology-driven green commuting system within the campus.
+                    Efficient management and conservation of water resources by 25%.
+                    Implementation of water recycling techniques including dissolved air flotation, biological
+                    treatment,
+                    granular activated carbon, softening, disinfection, deionization and filtration etc.
+                    Training and awareness for the utilization of recyclable materials and waste management
+                    Biodiversity, habitats and cultural heritage - conservation for current and future generations.
+                    Collaboration with NGOs, guidelines organisations and research organisations to explore the
+                    dynamics,
+                    issues and logistics of developing green and sustainable energy sources.
+                    Sensitization of students, staffs and local community by conducting regular outreach and awareness
+                    programs.<br>
+                    Establishment of CoE in the area of Clean Energy.<br>
+                    Promotion of collaborative research with industries related to the energy sector to develop more
+                    efficient renewable energy production system.
+                    Creepers vertical greening strategies for saving energy and reduction of urban heat island effects.
+                </li>
+
+            </ul>
+
+        </div>
+    </section>
+
+    <section id="survey">
+        <div class="rounded-box">
+            <h2>Take Our Survey</h2>
+            <p>We value your input! Please indicate if you would like to fill out our survey:</p>
+
+            <button id="showFormButton">Yes, I want to fill out the survey</button>
+
+            <!-- Form is initially hidden -->
+            <div id="surveyForm">
+                <button id="closeFormButton">Close</button>
+                <iframe id="googleForm" width="640" height="4778" frameborder="0" marginheight="0"
+                    marginwidth="0">Loading...</iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="rounded-box">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for more information or to contribute to our awareness efforts.</p>
+            <pre> eco-friendly@gmail.com    biofuel@outlook.com</pre>
+            <pre> Instagram/eoc-friend   Twitter/new-innovation</pre>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Footer content goes here -->
+        © 2023 Eco-Friendly Fuel
+    </footer>
+    </div>
+</body>
+
+</html>
